@@ -10,8 +10,8 @@ import datetime
 import time
 
 #需要填写你的 Access Key 和 Secret Key
-access_key = 'ZSuafxA3liUkgD2GRc6_NJ37pO-qyBXmZtGhdV1L'
-secret_key = 'UtJwlUTMsKlKWXg7aonFtxsr14s85EOyyEL1Ygvv'
+access_key = ''
+secret_key = ''
 
 #构建鉴权对象
 q = Auth(access_key, secret_key)
@@ -20,7 +20,7 @@ bucket_name = 'heartstoneimg'
 
 dir = "D:/python/heartstoneimg/Knights_of_the_Frozen_Throne_full_art"
 
-conn = psycopg2.connect(database="mydb", user="mmq", password="123456", host="13.58.124.143", port="5432")
+conn = psycopg2.connect(database="mydb", user="mmq", password="123456", host="", port="5432")
 
 cur = conn.cursor()
 
